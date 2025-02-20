@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Tracker</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Task Tracker</h1>
+    <div class="task-input">
+      <input type="text" id="task-title" placeholder="Enter a task...">
+      <button id="add-task">Add Task</button>
+    </div>
+    <div class="task-list" id="task-list">
+      <!-- Tasks will be dynamically added here -->
+      <!-- Example structure: -->
+      <!-- <div class="task" data-id="1">
+             <input type="checkbox" class="task-check">
+             <span class="task-title">Sample Task</span>
+             <button class="edit-btn">Edit</button>
+             <button class="delete-btn">Delete</button>
+           </div> -->
+    </div>
+    <button id="sync-btn">Sync with API</button>
+  </div>
+</body>
+</html>
