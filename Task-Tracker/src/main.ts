@@ -1,4 +1,8 @@
 // get elements
+const input = document.querySelector("#task-title")
+const addBtn = document.querySelector("#add-task")
+const localList = document.querySelector("#task-list")
+const saveBtn = document.querySelector("#sync-btn")
 
 // event listener to add event to local list
 
